@@ -1,0 +1,13 @@
+@import "./helpers/reset.scss";
+@import "./helpers/vars.scss";
+@import "./helpers/globals.scss";
+
+// <-- Blocks -->
+@import "./blocks/app.scss";
+@import "./blocks/info-panel.scss";
+@import "./blocks/game.scss";
+@import "./blocks/cell.scss";
+@import "./blocks/corner.scss";
+@import "./blocks/border.scss";
+@import "./blocks/counter.scss";
+@import "./blocks/smile.scss";

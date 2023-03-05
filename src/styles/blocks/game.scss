@@ -1,0 +1,8 @@
+.game {
+    // .game__field
+    &__field {
+        display: grid;
+        grid-template-columns: repeat(16, 16.2px);
+        grid-template-rows: repeat(16, 16.2px);
+    }
+}

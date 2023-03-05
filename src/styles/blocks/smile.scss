@@ -1,0 +1,24 @@
+.smile {
+    height: 27.9px;
+    width: 25.6px;
+    &[data-smile="unpressed"] {
+        background: url("/src/img/sprite.png");
+        background-position: 0 60.8px;
+    }
+    &[data-smile="pressed"] {
+        background: url("/src/img/sprite.png");
+        background-position: -27px 60.8px;
+    }
+    &[data-smile="win"] {
+        background: url("/src/img/sprite.png");
+        background-position: -81px 60.8px;
+    }
+    &[data-smile="lose"] {
+        background: url("/src/img/sprite.png");
+        background-position: -108px 60.8px;
+    }
+    &[data-smile="afraid"] {
+        background: url("/src/img/sprite.png");
+        background-position: -54px 60.8px;
+    }
+}

@@ -1,0 +1,66 @@
+.cell {
+    &[data-number="1"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: 0px -67.6px;
+    }
+    &[data-number="2"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -17px -67.6px;
+    }
+    &[data-number="3"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -34px -67.6px;
+    }
+    &[data-number="4"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -51px -67.6px;
+    }
+    &[data-number="5"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -68px -67.6px;
+    }
+    &[data-number="6"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -85px -67.6px;
+    }
+    &[data-number="7"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -102px -67.6px;
+    }
+    &[data-number="8"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -119px -67.6px;
+    }
+    &[data-status="empty"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -17px -50.6px;
+    }
+    &[data-status="hidden"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: 0px -50px;
+    }
+    &[data-status="mine"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -85px -51px;
+    }
+    &[data-status="hitted-mine"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -102px -50.5px;
+    }
+    &[data-status="marked"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -34px -50px;
+    }
+    &[data-status="missed"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -119px -50.5px;
+    }
+    &[data-status="supposed"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -51px -50px;
+    }
+    &[data-status="missed-supposed"] {
+        background: url("/src/img/sprite.png") no-repeat;
+        background-position: -68px -51px;
+    }
+}

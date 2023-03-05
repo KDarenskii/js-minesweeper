@@ -1,0 +1,14 @@
+.border {
+    display: block;
+    &--vertical {
+        width: 11px;
+        background: url("/src/img/borders/border.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    &--horizontal {
+        width: 102.7%;
+        height: 12px;
+        background: url("/src/img/borders/border-horizontal.png") no-repeat;
+        background-size: 100.1% 100%;
+    }
+}

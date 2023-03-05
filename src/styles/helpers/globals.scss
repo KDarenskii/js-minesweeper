@@ -1,0 +1,10 @@
+body {
+    background-color: #e4e4e4;
+    &.body--overflow {
+        overflow: hidden;
+    }
+}
+
+.border-wrapper {
+    display: flex;
+}

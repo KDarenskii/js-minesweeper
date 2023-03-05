@@ -1,0 +1,53 @@
+.counter {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    // .counter__number
+    &__number {
+        height: 23px;
+        width: 13px;
+        &[data-number="0"] {
+            background: url("/src/img/sprite.png") no-repeat;
+            background-position: -126px 0;
+        }
+        &[data-number="1"] {
+            background: url("/src/img/sprite.png") no-repeat;
+        }
+        &[data-number="2"] {
+            background: url("/src/img/sprite.png") no-repeat;
+            background-position: -14px 0;
+        }
+        &[data-number="3"] {
+            background: url("/src/img/sprite.png") no-repeat;
+            background-position: -28px 0;
+        }
+        &[data-number="4"] {
+            background: url("/src/img/sprite.png") no-repeat;
+            background-position: -42px 0;
+        }
+        &[data-number="5"] {
+            background: url("/src/img/sprite.png") no-repeat;
+            background-position: -56px 0;
+        }
+        &[data-number="6"] {
+            background: url("/src/img/sprite.png") no-repeat;
+            background-position: -70px 0;
+        }
+        &[data-number="7"] {
+            background: url("/src/img/sprite.png") no-repeat;
+            background-position: -84px 0;
+        }
+        &[data-number="8"] {
+            background: url("/src/img/sprite.png") no-repeat;
+            background-position: -98px 0;
+        }
+        &[data-number="9"] {
+            background: url("/src/img/sprite.png") no-repeat;
+            background-position: -112px 0;
+        }
+        &[data-number="-"] {
+            background: url("/src/img/minus.svg") no-repeat;
+            background-size: cover;
+        }
+    }
+}

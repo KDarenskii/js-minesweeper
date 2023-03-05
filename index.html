@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/styles/index.css" />
+        <title>JS Minesweeper</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1 class="app__title">JS Minesweeper</h1>
+            <div class="game">
+                <div class="border-wrapper">
+                    <div class="corner corner--top-left"></div>
+                    <div class="border border--horizontal"></div>
+                    <div class="corner corner--top-right"></div>
+                </div>
+
+                <div class="info-panel">
+                    <div class="border-wrapper">
+                        <div class="border border--vertical"></div>
+                        <div class="info-panel__wrapper">
+                            <div class="counter" data-mines-counter>
+                                <div class="counter__number" data-number="0"></div>
+                                <div class="counter__number" data-number="0"></div>
+                                <div class="counter__number" data-number="0"></div>
+                            </div>
+                            <div class="smile" data-smile="unpressed"></div>
+                            <div class="counter" data-timer>
+                                <div class="counter__number" data-number="0"></div>
+                                <div class="counter__number" data-number="0"></div>
+                                <div class="counter__number" data-number="0"></div>
+                            </div>
+                        </div>
+                        <div class="border border--vertical"></div>
+                    </div>
+                </div>
+
+                <div class="border-wrapper">
+                    <div class="corner corner--middle-left"></div>
+                    <div class="border border--horizontal"></div>
+                    <div class="corner corner--middle-right"></div>
+                </div>
+
+                <div class="game__board">
+                    <div class="border-wrapper">
+                        <div class="border border--vertical"></div>
+                        <div class="game__field" data-field></div>
+                        <div class="border border--vertical"></div>
+                    </div>
+                </div>
+
+                <div class="border-wrapper">
+                    <div class="corner corner--bottom-left"></div>
+                    <div class="border border--horizontal"></div>
+                    <div class="corner corner--bottom-right"></div>
+                </div>
+            </div>
+        </div>
+        <script src="./src/js/index.js" defer type="module"></script>
+    </body>
+</html>
